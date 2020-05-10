@@ -21,6 +21,6 @@ for student in range(1,11):
     if student in absent:
         continue
     if student in nobook:
-        print("씨발뭐라고?", student,"열로와")
+        print("뭐라고?", student,"열로와")
         break
     print("{0}, 책을 읽어봐".format(student))
